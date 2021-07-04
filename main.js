@@ -2,7 +2,7 @@ var canvas = new fabric.Canvas('myCanvas');
  var x= document.getElementById("myAudio");
 
 function new_image()
-{  fabrick.Image.fromURL("Birthdayimage.jpg", function(img)
+{  fabric.Image.fromURL("Birthdayimage.jpg", function(img)
 {
     block_image_objective=img;
 
